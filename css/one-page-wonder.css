@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Yesteryear';
+@import 'https://fonts.googleapis.com/css?family=Pacifico';
 /*
  * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -27,7 +27,7 @@ body {
 
 .headline h1 {
     font-size: 77px;
-    font-family: 'Yesteryear', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 .headline h2 {
