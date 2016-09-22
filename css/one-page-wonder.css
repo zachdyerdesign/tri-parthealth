@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     /*text-align: center;*/
-    background: url('../images/tripart-banner.jpg') no-repeat center center scroll;
+    background: url('../images/happy-family.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -20,7 +20,7 @@ body {
 }
 
 .headline {
-  padding: 300px;
+  padding: 0 0 300px;
 }
 
 .headline h1 {
