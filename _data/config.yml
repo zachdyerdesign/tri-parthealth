@@ -1,8 +1,8 @@
-banner: newfuture.jpg
 address: Kansas City, MO
 phone: 1 816 260 5000
 email: wadelhankins@gmail.com
 facebook: wadehankins
+theme: flatly
 
 main-menu:
   - title: Home
