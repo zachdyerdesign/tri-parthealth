@@ -1,0 +1,23 @@
+banner: newfuture.jpg
+address: Kansas City, MO
+phone: 1 816 260 5000
+email: wadelhankins@gmail.com
+facebook: wadehankins
+
+main-menu:
+  - title: Home
+    permalink: ""
+  - title: About
+    permalink: about
+  - title: Tri-Part
+    permalink: tri-part
+  - title: Spirit
+    permalink: spirit
+  - title: Soul
+    permalink: soul
+  - title: Body
+    permalink: body
+  - title: Healing
+    permalink: healing
+  - title: Contact
+    permalink: contact
