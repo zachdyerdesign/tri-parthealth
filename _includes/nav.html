@@ -1,7 +1,8 @@
 <nav id="nav">
   <ul>
     {% for menu in site.data.config.main-menu %}
-    <li {% if page.url == '/{{ menu.permalink }}' %}class='current'{% endif %}><a href="{{ site.github.url }}/{{ menu.permalink }}">{{ menu.title }}</a></li>
+    <li {% if page.url == '/{{ menu.permalink }}' %}class='current'{% endif %}><a href="{{ site.github.url }}/{{ menu.permalink }}">{{ menu.title }}</a>
+    </li>
     {% endfor %}
     <!--<li class="submenu">
       <a href="#">Submenu</a>

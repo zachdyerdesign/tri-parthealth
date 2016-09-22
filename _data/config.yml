@@ -20,5 +20,9 @@ main-menu:
     permalink: body
   - title: Healing
     permalink: healing
+  - title: Event
+    permalink: event
+  - title: Donate
+    permalink: donate
   - title: Contact
     permalink: contact
