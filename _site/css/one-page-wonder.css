@@ -16,10 +16,10 @@ body {
     /*text-align: center;*/
     background: url('../images/happy-family.jpg') no-repeat center center scroll;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: 90%;
+    -moz-background-size: 90%;
+    background-size: 90%;
+    -o-background-size: 90%;
 }
 
 .headline {
