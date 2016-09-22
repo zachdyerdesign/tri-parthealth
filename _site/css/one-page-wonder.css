@@ -52,6 +52,9 @@ body {
 .featurette-image.pull-right {
     margin-left: 40px;
 }
+.featurette-image {
+  margin-top: 100px;
+}
 
 .featurette-heading {
     font-size: 50px;
