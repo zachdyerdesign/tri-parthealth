@@ -13,6 +13,7 @@ body {
     width: 100%;
     /*text-align: center;*/
     background: url('../images/happy-family.jpg') no-repeat center center scroll;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -20,7 +21,7 @@ body {
 }
 
 .headline {
-  padding: 0 0 300px;
+  padding: 52px 0 233px;
 }
 
 .headline h1 {
@@ -146,7 +147,7 @@ footer {
 
 @media(max-width:640px) {
     .headline {
-        padding: 75px 0 25px 0;
+            padding: 0px 0 246px 0;
     }
 
     .headline h1 {
@@ -155,6 +156,10 @@ footer {
 
     .headline h2 {
         font-size: 30px;
+    }
+    .header-image {
+      background-position: bottom right;
+      background-size: 196%;
     }
 }
 
