@@ -1,18 +1,57 @@
-<nav id="nav">
-  <ul>
-    {% for menu in site.data.config.main-menu %}
-    <li {% if page.url == '/{{ menu.permalink }}' %}class='current'{% endif %}><a href="{{ site.github.url }}/{{ menu.permalink }}">{{ menu.title }}</a>
-    </li>
-    {% endfor %}
-    <!--<li class="submenu">
-      <a href="#">Submenu</a>
-      <ul>
-        <li><a href="#">Dolore Sed</a></li>
-        <li><a href="#">Consequat</a></li>
-        <li><a href="#">Lorem Magna</a></li>
-        <li><a href="#">Sed Magna</a></li>
-        <li><a href="#">Ipsum Nisl</a></li>
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="../" class="navbar-brand"><span class="fa fa-puzzle-piece" aria-hidden="true"></span> {{ site.title }}</a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-main">
+      <ul class="nav navbar-nav">
+        <!--<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
+          <ul class="dropdown-menu" aria-labelledby="themes">
+            <li><a href="../default/">Default</a></li>
+            <li class="divider"></li>
+            <li><a href="../cerulean/">Cerulean</a></li>
+            <li><a href="../cosmo/">Cosmo</a></li>
+            <li><a href="../cyborg/">Cyborg</a></li>
+            <li><a href="../darkly/">Darkly</a></li>
+            <li><a href="../flatly/">Flatly</a></li>
+            <li><a href="../journal/">Journal</a></li>
+            <li><a href="../lumen/">Lumen</a></li>
+            <li><a href="../paper/">Paper</a></li>
+            <li><a href="../readable/">Readable</a></li>
+            <li><a href="../sandstone/">Sandstone</a></li>
+            <li><a href="../simplex/">Simplex</a></li>
+            <li><a href="../slate/">Slate</a></li>
+            <li><a href="../spacelab/">Spacelab</a></li>
+            <li><a href="../superhero/">Superhero</a></li>
+            <li><a href="../united/">United</a></li>
+            <li><a href="../yeti/">Yeti</a></li>
+          </ul>
+        </li>-->
+        {% for menu in site.data.config.main-menu %}
+        <li class="{% if page.url == '/#{{ menu.permalink }}' %}current {% endif %}{% if menu.sub != nil  %}dropdown{% endif %}">
+          <a {% if menu.sub != nil %}class="dropdown-toggle" data-toggle="dropdown"{% endif %} href="{{ site.github.url }}/#{{ menu.permalink }}">{{ menu.title }} {% if menu.sub != nil %}<span class="caret"></span>{% endif %}</a>
+          {% if menu.sub != nil %}
+          <ul class="dropdown-menu" aria-labelledby="themes">
+          {% for sub in menu.sub %}
+            <li><a href="{{ site.github.url }}/#{{ sub.permalink }}">{{ sub.title }}</a></li>
+          {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
       </ul>
-    </li>-->
-  </ul>
-</nav>
+
+      <!--<ul class="nav navbar-nav navbar-right">
+        <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
+        <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
+      </ul>-->
+
+    </div>
+  </div>
+</div>

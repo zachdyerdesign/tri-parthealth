@@ -11,13 +11,16 @@ main-menu:
   - title: About
     permalink: about
   - title: Tri-Part
-    permalink: tri-part
-  - title: Spirit
-    permalink: spirit
-  - title: Soul
-    permalink: soul
-  - title: Body
-    permalink: body
+    permalink:
+    sub:
+    - title: Tri-Part
+      permalink: tri-part
+    - title: Spirit
+      permalink: spirit
+    - title: Soul
+      permalink: soul
+    - title: Body
+      permalink: body
   - title: Healing
     permalink: healing
   - title: Event
