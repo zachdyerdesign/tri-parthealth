@@ -35,11 +35,11 @@
         </li>-->
         {% for menu in site.data.config.main-menu %}
         <li class="{% if page.url == '/#{{ menu.permalink }}' %}current {% endif %}{% if menu.sub != nil  %}dropdown{% endif %}">
-          <a {% if menu.sub != nil %}class="dropdown-toggle" data-toggle="dropdown"{% endif %} href="{{ site.github.url }}/#{{ menu.permalink }}">{{ menu.title }} {% if menu.sub != nil %}<span class="caret"></span>{% endif %}</a>
+          <a {% if menu.sub != nil %}class="dropdown-toggle" data-toggle="dropdown"{% endif %} href="{{ site.github.url }}/{{ menu.permalink }}">{{ menu.title }} {% if menu.sub != nil %}<span class="caret"></span>{% endif %}</a>
           {% if menu.sub != nil %}
           <ul class="dropdown-menu" aria-labelledby="themes">
           {% for sub in menu.sub %}
-            <li><a href="{{ site.github.url }}/#{{ sub.permalink }}">{{ sub.title }}</a></li>
+            <li><a href="{{ site.github.url }}/{{ sub.permalink }}">{{ sub.title }}</a></li>
           {% endfor %}
           </ul>
           {% endif %}

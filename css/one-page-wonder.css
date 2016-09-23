@@ -43,7 +43,7 @@ body {
 }
 
 .featurette {
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .featurette-image.pull-left {
@@ -54,7 +54,7 @@ body {
     margin-left: 40px;
 }
 .featurette-image {
-  margin-top: 100px;
+  /*margin-top: 100px;*/
 }
 
 .featurette-heading {
