@@ -47,7 +47,7 @@ p {
 }
 
 .featurette {
-    overflow: auto;
+    overflow: hidden;
 }
 
 .featurette-image.pull-left {

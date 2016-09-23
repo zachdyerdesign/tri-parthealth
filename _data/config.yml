@@ -21,8 +21,8 @@ main-menu:
       permalink: "#soul"
     - title: Body
       permalink: "#body"
-  - title: Event
-    permalink: event
+  - title: Events
+    permalink: events
   - title: Donate
     permalink: donate
   - title: Contact
