@@ -169,9 +169,9 @@ footer {
         width: 100%;
     }
     .header-image {
-      background-position: top;
+      background-position: -141px 0;
       background-size: 180%;
-      height: 280px;
+      height: 313px;
     }
 }
 
