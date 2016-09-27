@@ -181,6 +181,9 @@ footer {
     .phone-booth, .sidebar, .rock {
       display: none;
     }
+    .about {
+      margin-top: 30px;
+    }
 }
 
 @media(max-width:375px) {
