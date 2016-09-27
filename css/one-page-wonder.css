@@ -115,7 +115,7 @@ footer {
     }
 
     .featurette-image {
-        max-width: 50%;
+        /*max-width: 50%;*/
     }
 
     .featurette-image.pull-left {
@@ -181,7 +181,7 @@ footer {
     .phone-booth, .sidebar, .rock {
       display: none;
     }
-    .about {
+    .about, .tri-part {
       margin-top: 30px;
     }
 }
