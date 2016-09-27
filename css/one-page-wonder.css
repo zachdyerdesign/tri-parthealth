@@ -180,6 +180,9 @@ footer {
     .featurette-image {
       margin-top: 0;
     }
+    .phone-booth {
+      display: none;
+    }
 }
 
 @media(max-width:375px) {

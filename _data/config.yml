@@ -9,18 +9,18 @@ main-menu:
   - title: Home
     permalink: ""
   - title: About
-    permalink: "#about"
+    permalink: "index.html#about"
   - title: Tri-Part
     permalink:
     sub:
     - title: Tri-Part
-      permalink: "#tri-part"
+      permalink: "index.html#tri-part"
     - title: Spirit
-      permalink: "#spirit"
+      permalink: "index.html#spirit"
     - title: Soul
-      permalink: "#soul"
+      permalink: "index.html#soul"
     - title: Body
-      permalink: "#body"
+      permalink: "index.html#body"
   - title: Events
     permalink: events
   - title: Donate
