@@ -177,6 +177,9 @@ footer {
       background-size: 180%;
       height: 313px;
     }
+    .featurette-image {
+      margin-top: 0;
+    }
 }
 
 @media(max-width:375px) {
