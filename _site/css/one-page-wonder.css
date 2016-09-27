@@ -163,11 +163,9 @@ footer {
     .headline {
             padding: 0px 0 246px 0;
     }
-
     .headline h1 {
         font-size: 60px;
     }
-
     .headline h2 {
         font-size: 30px;
         width: 100%;
@@ -177,7 +175,7 @@ footer {
       background-size: 180%;
       height: 313px;
     }
-    .featurette-image {
+    .featurette {
       margin-top: 0;
     }
     .phone-booth {
