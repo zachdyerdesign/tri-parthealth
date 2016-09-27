@@ -178,7 +178,7 @@ footer {
     .featurette {
       margin-top: 0;
     }
-    .phone-booth {
+    .phone-booth, .sidebar, .rock {
       display: none;
     }
 }
